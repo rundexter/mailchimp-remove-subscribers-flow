@@ -72,8 +72,9 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-                //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                workflow_id: ['b0a1c24f1a'],
+                workflow_email_id: ['491fec26f1'],
+                email_address: ['test@mail.com']
             }
         }
     }

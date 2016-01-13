@@ -2,25 +2,17 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
-        }
-        */
-    ],
-    //Required. Outputs the module emits.
-    "outputs": [
-      //e.g.
-      /*
+            "id": "workflow_id",
+            "title":"Workflow ID"
+        },
         {
-            "id": "from",
-            "title":"From"
+            "id": "email_address",
+            "title":" Subscriber Email"
         }
-      */
     ],
-    "title": "Mailchimp - Remove Subscriber from Workflow" /* Required.A display name for the module */
+    "outputs": [],
+    "icon": "dex-mailchimp",
+    "title": "Mailchimp - Remove Subscriber from Workflow"
 }
